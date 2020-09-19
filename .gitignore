@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-src/components/Header.js
+sr/components/Header.js
 
 # production
 /build
