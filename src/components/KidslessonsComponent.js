@@ -13,7 +13,7 @@ class Kidslessons extends Component{
                 <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>Directory</BreadcrumbItem>
+                        <BreadcrumbItem active>Kids Lessons</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>The page is under Construction</h2>
                     <hr />

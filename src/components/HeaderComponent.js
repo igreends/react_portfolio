@@ -73,7 +73,11 @@ class Header extends Component {
                         Kids Lessons
                       </NavLink>
                     </DropdownItem>
-                    <DropdownItem>Adults Lessons</DropdownItem>
+                    <DropdownItem >
+                    <NavLink className="nav-link" to="/adultslessons">
+                      Adults Lessons
+                      </NavLink>
+                      </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>Hitting Lessons</DropdownItem>
                   </DropdownMenu>

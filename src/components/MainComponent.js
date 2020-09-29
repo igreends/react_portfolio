@@ -7,6 +7,7 @@ import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import About from './AboutComponent';
 import Kidslessons from './KidslessonsComponent';
+import Adultslessons from './AdultslessonsComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { CAMPSITES } from '../shared/campsites';
 import { COMMENTS } from '../shared/comments';
@@ -52,12 +53,13 @@ class Main extends Component {
                     <Route exact path="/contactus" component={Contact}/>
                     <Route exact path="/aboutus" render={() => <About partners={this.state.partners} />}/>
                     <Route exact path="/kidslessons" component={Kidslessons} />
+                    <Route exact path="/adultslessons" component={Adultslessons} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
             </div>
         );
     }
-}
+}   
 
 export default Main;
